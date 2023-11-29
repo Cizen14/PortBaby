@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #BAD2D3;
+    
+}
+.nav-bar{
+    background-color:whitesmoke ;
+    position: sticky;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+ul{
+    display: flex;
+   
+  
+    gap: 3rem;
+    
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
