@@ -7,14 +7,25 @@ body{
 .nav-bar{
     background-color:whitesmoke ;
     position: sticky;
+    overflow: hidden;
+    top: 0;
 }
 .nav{
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: Montagu Slab;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
+
+
+
 ul{
     display: flex;
    
@@ -26,4 +37,60 @@ li{
     list-style-type: none;
     cursor: pointer;
     
+}
+
+
+li:hover{
+    color: rgba(29, 171, 242, 0.732);
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    color: #000;
+
+
+font-family: Montagu Slab;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: left;
+
+padding-left: 25px;
+padding-top:40px;
+}
+.description{
+    color: #000;
+
+    
+    font-family: Montagu Slab;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    
+    padding-left:3rem;
+    padding-top: 20px;
+    
+
+}
+.heroimg{
+    height: 90vh;
+   
+ 
+}
+img{
+    height: 100px;
+}
+.img1{
+    
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+
+   
+   
 }
